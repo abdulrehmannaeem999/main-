@@ -2,20 +2,162 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* .main{
+  width: full ;
+height: 2120px;
+top: 124px;
+gap: 0px;
+opacity: 0px;
+background: #F6F7F9;
+
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.h1{
+  font: Semibold;
+font-family: Plus Jakarta Sans;
+font-size: 32px;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: -0.03em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.p{
+  font: Medium;
+font-family: Plus Jakarta Sans;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: -0.02em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+} */
+
+button{
+  background: #3563E9;
+  width: Fixed (120px)px;
+height: Fixed (44px)px;
+gap: 8px;
+border-radius: 4px ;
+opacity: 0px;
+
 }
+
+ .h11{
+
+font: Semibold;
+font-family: Plus Jakarta Sans;
+font-size: 32px;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: -0.03em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+/* .main1{
+  
+} */
+
+.buttonn{
+  width: Fixed (120px)px;
+height: Fixed (44px)px;
+padding: 0px 20px 0px 20px;
+gap: 8px;
+border-radius: 4px 4px 4px 4px;
+opacity: 0px;
+/* background-color: #3563E9; */
+}
+
+.main{
+  width: Hug (284px)px;
+height: Hug (224px)px;
+top: 24px;
+left: 24px;
+gap: 20px;
+opacity: 0px;
+
+} 
+
+/* .main{
+  width: 640px;
+height: 360px;
+top: 32px;
+left: 64px;
+gap: 0px;
+border-radius: 10px 0px 0px 0px;
+opacity: 0px;
+
+
+} */
+
+.h22{
+  font: Medium;
+font-family: Plus Jakarta Sans;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: -0.02em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+
+
+
+.morent {
+  
+  font-family: Plus Jakarta Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #3563E9;
+  
+}
+
+/* .button{
+
+font-family: Plus Jakarta Sans;
+font-size: 14px;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: -0.02em;
+text-align: justified;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+} */
+
+/* .p{
+
+font-family: Plus Jakarta Sans;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: -0.02em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+} */
+
+/* .button{
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: repeat(4,1fr);
+  gap: 5px;
+} */

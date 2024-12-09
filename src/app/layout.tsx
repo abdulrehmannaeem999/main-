@@ -1,17 +1,15 @@
 import type { Metadata } from "next";
+import { Roboto,Yuji_Mai,Plus_Jakarta_Sans} from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
+import Link from "next/link";
+import Footer from "./components/Footer/footer";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
+const myfont = Plus_Jakarta_Sans ({
+  weight: ["400"]
+  })
+
+
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -25,10 +23,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={myfont.className} >
+         {/* className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+       */}
+       
+      
+        
         {children}
+      <Footer />
       </body>
     </html>
   );
